@@ -21,7 +21,7 @@ IP="REMOTE_SERVER_IP"
 DBUSER="USER"
 DBPASS="PASSWORD"
 CONN="-u$DBUSER -p$DBASS"
-IPCONN="$IPPRIMARIO -u$DBUSER -p$DBASS"
+IPCONN="$IP -u$DBUSER -p$DBASS"
 
 function logAction() {
     CURDATE=$(date "+%d-%m-%Y %H:%M:%S")
